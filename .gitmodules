@@ -1,0 +1,36 @@
+[submodule ".vim/bundle/vim-pathogen"]
+	path = .vim/bundle/vim-pathogen
+	url = git://github.com/tpope/vim-pathogen.git
+  ignore = untracked
+[submodule ".vim/bundle/EnhancedCommentify.git"]
+	path = .vim/bundle/EnhancedCommentify.git
+	url = git://github.com/hrp/EnhancedCommentify.git
+  ignore = untracked
+[submodule ".vim/bundle/matchit.git"]
+	path = .vim/bundle/matchit.git
+	url = git://github.com/tsaleh/vim-matchit.git
+  ignore = untracked
+[submodule ".vim/bundle/perldoc-vim.git"]
+	path = .vim/bundle/perldoc-vim.git
+	url = git://github.com/hotchpotch/perldoc-vim.git
+  ignore = untracked
+[submodule ".vim/bundle/surround.git"]
+	path = .vim/bundle/surround.git
+	url = git://github.com/vim-scripts/surround.vim.git
+  ignore = untracked
+[submodule ".vim/bundle/endwise.git"]
+	path = .vim/bundle/endwise.git
+	url = git://github.com/vim-scripts/endwise.vim.git
+  ignore = untracked
+[submodule ".vim/bundle/Align.git"]
+	path = .vim/bundle/Align.git
+	url = git://github.com/vim-scripts/Align.vim.git
+  ignore = untracked
+[submodule ".vim/bundle/vim-ruby.git"]
+	path = .vim/bundle/vim-ruby.git
+	url = git://github.com/vim-ruby/vim-ruby.git
+  ignore = untracked
+[submodule ".vim/bundle/vim-rails.git"]
+	path = .vim/bundle/vim-rails.git
+	url = git://github.com/tpope/vim-rails.git
+  ignore = untracked
