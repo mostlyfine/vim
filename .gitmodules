@@ -34,3 +34,6 @@
 	path = .vim/bundle/vim-rails.git
 	url = git://github.com/tpope/vim-rails.git
   ignore = untracked
+[submodule ".vim/bundle/neocomplcache.git"]
+	path = .vim/bundle/neocomplcache.git
+	url = git://github.com/Shougo/neocomplcache.git
