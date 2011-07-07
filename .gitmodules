@@ -22,10 +22,6 @@
 	path = .vim/bundle/endwise.git
 	url = git://github.com/vim-scripts/endwise.vim.git
   ignore = untracked
-[submodule ".vim/bundle/Align.git"]
-	path = .vim/bundle/Align.git
-	url = git://github.com/vim-scripts/Align.vim.git
-  ignore = untracked
 [submodule ".vim/bundle/vim-ruby.git"]
 	path = .vim/bundle/vim-ruby.git
 	url = git://github.com/vim-ruby/vim-ruby.git
