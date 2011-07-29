@@ -123,6 +123,8 @@ nnoremap <C-h> :<C-v>help<Space><C-r><C-w><Enter>
 " カーソル下のキーワードをgrepする
 nnoremap <C-g> :<C-v>vimgrep<Space>/<C-r><C-w>/j<Space>
 
+" make
+nnoremap <Leader>m <ESC>:make<CR>
 
 " command -----------------------------------------------------------
 
