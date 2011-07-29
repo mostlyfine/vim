@@ -21,15 +21,4 @@ let perl_include_pod=1
 let perl_extended_vars=1
 let perl_perl_sync_dist=250
 
-" Template Toolkit用
-iab TT [% %]
-iab TIF [% IF %][% END %]
-iab TIFE [% ELSIF %]
-iab TIFL [% ELSE %]
-iab TF [% FOREACH %][% END %]
-iab TW [% WHILE %][% END %]
-iab TS [% SWITCH %][% CASE %][% END %]
-iab Ts [% etc %]
-iab TI [% INCLUDE "" %]
-
-iab _perls #!/usr/bin/env perl<CR><BS><CR>use strict;<CR>use warnings;<CR>use utf8;<CR>
+iab _perls #!/usr/bin/env perl<CR><BS><CR>use strict;<CR>use warnings;<CR>
