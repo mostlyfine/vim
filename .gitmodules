@@ -38,3 +38,7 @@
 	path = .vim/bundle/YankRing.git
 	url = git://github.com/vim-scripts/YankRing.vim.git
   ignore = untracked
+[submodule ".vim/bundle/Align.git"]
+	path = .vim/bundle/Align.git
+	url = git://github.com/vim-scripts/Align.git
+  ignore = untracked
