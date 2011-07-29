@@ -42,3 +42,7 @@
 	path = .vim/bundle/Align.git
 	url = git://github.com/vim-scripts/Align.git
   ignore = untracked
+[submodule ".vim/bundle/vim-ref.git"]
+	path = .vim/bundle/vim-ref.git
+	url = git://github.com/thinca/vim-ref.git
+  ignore = untracked

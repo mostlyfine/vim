@@ -198,3 +198,6 @@ let g:neocomplcache_enable_at_startup=1             " neocomplcache有効化
 let g:neocomplcache_enable_smart_case=1             " 大文字小文字を無視
 let g:neocomplcache_enable_camel_case_completion=0  " camel case無効
 let g:neocomplcache_enable_underbar_completion=1    " _区切りの補完を有効
+
+" ref.vim
+let g:ref_perldoc_complete_head = 1
