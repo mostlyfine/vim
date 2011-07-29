@@ -33,3 +33,8 @@
 [submodule ".vim/bundle/neocomplcache.git"]
 	path = .vim/bundle/neocomplcache.git
 	url = git://github.com/Shougo/neocomplcache.git
+  ignore = untracked
+[submodule ".vim/bundle/YankRing.git"]
+	path = .vim/bundle/YankRing.git
+	url = git://github.com/vim-scripts/YankRing.vim.git
+  ignore = untracked
