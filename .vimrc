@@ -113,9 +113,9 @@ nnoremap <F3> :bnext<CR>
 nnoremap <F4> :ls<CR>
 
 " カーソルを一個左に戻す
-inoremap {} {}<Left>
-inoremap [] []<Left>
-inoremap () ()<Left>
+"inoremap {} {}<Left>
+"inoremap [] []<Left>
+"inoremap () ()<Left>
 
 " カーソル下のキーワードをヘルプで引く
 nnoremap <C-h> :<C-v>help<Space><C-r><C-w><Enter>
