@@ -46,3 +46,7 @@
 	path = .vim/bundle/vim-ref.git
 	url = git://github.com/thinca/vim-ref.git
   ignore = untracked
+[submodule ".vim/bundle/sudo.vim.git"]
+	path = .vim/bundle/sudo.vim.git
+	url = git://github.com/vim-scripts/sudo.vim.git
+  ignore = untracked
