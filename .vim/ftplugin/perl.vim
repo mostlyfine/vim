@@ -16,16 +16,8 @@ vnoremap <Leader>pt <ESC>:'<,'>! perltidy<CR>
 " 選択範囲を整形(perl)
 vnoremap pt :<C-v>! perltidy<CR>
 
-" variables --------------------------------------------------------
-let perl_no_scope_in_variables=1
-let perl_include_pod=1
-let perl_extended_vars=1
-let perl_perl_sync_dist=250
-
-iab _perls #!/usr/bin/env perl<CR><BS><CR>use strict;<CR>use warnings;<CR>
-
+" [{ で{}の先頭にジャンプ
 nnoremap <buffer> <silent> ( :<C-U>call PreviewOpenBrace()<CR>
-
 if !exists('*PreviewOpenBrace')
     function PreviewOpenBrace()
         let l:pos = getpos('.')
@@ -44,3 +36,11 @@ if !exists('*PreviewOpenBrace')
         let s:last_pos   = l:pos
     endfunction
 endif
+
+" variables --------------------------------------------------------
+let perl_no_scope_in_variables=1
+let perl_include_pod=1
+let perl_extended_vars=1
+let perl_perl_sync_dist=250
+
+iab _perls #!/usr/bin/env perl<CR><BS><CR>use strict;<CR>use warnings;<CR>
