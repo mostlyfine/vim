@@ -81,5 +81,8 @@ set formatoptions-=o
 set makeprg=ruby\ -c\ %
 set errorformat=%m\ in\ %f\ on\ line\ %l
 set dictionary=$HOME/.vim/dict/ruby187.dict
+"
+" keybind ----------------------------------------------------------
+nnoremap <Leader>r <ESC>:!ruby %<CR>
 
 iab _ruby #!/usr/bin/env ruby<CR><BS><CR>
