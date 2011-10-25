@@ -1,8 +1,6 @@
 compiler perl
 
 " config -----------------------------------------------------------
-set formatoptions-=r " 挿入モードで改行したときにコメントを自動挿入しない
-set formatoptions-=o " ノーマルモードでoしたときにコメントを自動挿入しない
 set dictionary=$HOME/.vim/dict/perl_functions.dict
 
 " keybind ----------------------------------------------------------

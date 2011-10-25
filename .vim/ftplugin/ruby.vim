@@ -75,8 +75,6 @@ autocmd BufRead,BufEnter *.feature call s:SetupCucumberVim()
 " config -----------------------------------------------------------
 set tabstop=2
 set shiftwidth=2
-set formatoptions-=r
-set formatoptions-=o
 set makeprg=ruby\ -c\ %
 set errorformat=%m\ in\ %f\ on\ line\ %l
 set dictionary=$HOME/.vim/dict/ruby187.dict
