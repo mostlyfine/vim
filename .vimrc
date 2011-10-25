@@ -179,6 +179,11 @@ highlight IgnoreSpace ctermbg=red guibg=red
 autocmd Colorscheme * highlight IgnoreSpace ctermbg=red guibg=red
 autocmd VimEnter,WinEnter * match IgnoreSpace /\s\+$\|　/
 
+" filetype ------------------------------------------------------------
+autocmd BufNewFile,BufRead *.tt,*.cfm setlocal filetype=html
+autocmd BufNewFile,BufRead *.pl,*.t,*.cgi,*.psgi setlocal filetype=perl
+autocmd BufNewFile,BufRead *.feature,*.haml set filetype=ruby
+
 " plugin ------------------------------------------------------------
 
 " pathogen

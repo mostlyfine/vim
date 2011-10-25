@@ -71,7 +71,6 @@ endfunction
 
 autocmd BufRead,BufEnter *_spec.rb call s:SetupRspecVim()
 autocmd BufRead,BufEnter *.feature call s:SetupCucumberVim()
-autocmd BufNewFile,BufRead *.feature set filetype=ruby
 
 " config -----------------------------------------------------------
 set tabstop=2

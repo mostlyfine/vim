@@ -1,8 +1,5 @@
 compiler perl
 
-autocmd BufNewFile,BufRead *.tt,*.cfm setlocal filetype=html
-autocmd BufNewFile,BufRead *.pl,*.t,*.cgi,*.psgi setlocal filetype=perl
-
 " config -----------------------------------------------------------
 set formatoptions-=r " 挿入モードで改行したときにコメントを自動挿入しない
 set formatoptions-=o " ノーマルモードでoしたときにコメントを自動挿入しない
