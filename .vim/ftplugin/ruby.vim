@@ -83,3 +83,4 @@ set dictionary=$HOME/.vim/dict/ruby187.dict
 nnoremap <Leader>r <ESC>:!ruby %<CR>
 
 iab _ruby #!/usr/bin/env ruby<CR><BS><CR>
+iab ## # -*- coding: utf-8 -*-

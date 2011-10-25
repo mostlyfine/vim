@@ -39,3 +39,4 @@ let perl_extended_vars=1
 let perl_perl_sync_dist=250
 
 iab _perls #!/usr/bin/env perl<CR><BS><CR>use strict;<CR>use warnings;<CR>
+iab ## # -*- coding: utf-8 -*-
