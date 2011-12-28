@@ -50,3 +50,7 @@
 	path = .vim/bundle/sudo.vim.git
 	url = git://github.com/vim-scripts/sudo.vim.git
   ignore = untracked
+[submodule ".vim/bundle/ctrip.git"]
+	path = .vim/bundle/ctrip.git
+	url = https://github.com/kien/ctrlp.vim.git
+  ignore = untracked
