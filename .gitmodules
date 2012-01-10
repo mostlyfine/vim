@@ -50,3 +50,6 @@
 	path = .vim/bundle/sudo.vim.git
 	url = git://github.com/vim-scripts/sudo.vim.git
   ignore = untracked
+[submodule ".vim/bundle/buftabs.git"]
+	path = .vim/bundle/buftabs.git
+	url = git://github.com/vim-scripts/buftabs.git

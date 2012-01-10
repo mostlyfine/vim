@@ -212,3 +212,8 @@ smap <C-k> <Plug>(neocomplcache_snippets_expand)
 
 " ref.vim
 let g:ref_perldoc_complete_head = 1
+
+" buftabs.vim
+let g:buftabs_only_basename=1
+let g:buftabs_in_statusline=1
+let g:buftabs_active_highlight_group="Visual"
