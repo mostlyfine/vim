@@ -217,3 +217,16 @@ let g:ref_perldoc_complete_head = 1
 let g:buftabs_only_basename=1
 let g:buftabs_in_statusline=1
 let g:buftabs_active_highlight_group="Visual"
+
+" ctrlp.vim
+nnoremap ff :CtrlP<CR>
+nnoremap fb :CtrlPBuffer<CR>
+nnoremap fm :CtrlPMRUFiles<CR>
+let g:ctrlp_map = '<c-l>'
+let g:ctrlp_by_filename         = 1 " フルパスではなくファイル名のみで絞込み
+let g:ctrlp_jump_to_buffer      = 2 " タブで開かれていた場合はそのタブに切り替える
+let g:ctrlp_clear_cache_on_exit = 0 " 終了時キャッシュをクリアしない
+let g:ctrlp_mruf_max            = 200 " MRUの最大記録数
+let g:ctrlp_highlight_match     = [1, 'IncSearch'] " 絞り込みで一致した部分のハイライト
+let g:ctrlp_open_new_file       = 1 " 新規ファイル作成時にタブで開く
+let g:ctrlp_open_multi          = '10t' " 複数ファイルを開く時にタブで最大10まで開く

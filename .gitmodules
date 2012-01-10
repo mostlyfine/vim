@@ -53,3 +53,8 @@
 [submodule ".vim/bundle/buftabs.git"]
 	path = .vim/bundle/buftabs.git
 	url = git://github.com/vim-scripts/buftabs.git
+  ignore = untracked
+[submodule ".vim/bundle/ctrlp.vim.git"]
+	path = .vim/bundle/ctrlp.vim.git
+	url = git://github.com/kien/ctrlp.vim.git
+  ignore = untracked
