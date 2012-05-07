@@ -184,7 +184,7 @@ autocmd BufNewFile,BufRead *.tt,*.cfm setlocal filetype=html
 autocmd BufNewFile,BufRead *.pl,*.t,*.cgi,*.psgi setlocal filetype=perl
 autocmd BufNewFile,BufRead *.feature,*.haml set filetype=ruby
 autocmd BufNewFile *.html 0r ~/.vim/templates/html.tpl
-autocmd BufNewFile *.pl 0r ~/.vim/templates/perl.tpl
+autocmd BufNewFile *.pl,*.pm 0r ~/.vim/templates/perl.tpl
 autocmd BufNewFile *.rb 0r ~/.vim/templates/ruby.tpl
 
 " plugin ------------------------------------------------------------
