@@ -58,3 +58,7 @@
 	path = .vim/bundle/ctrlp.vim.git
 	url = git://github.com/kien/ctrlp.vim.git
   ignore = untracked
+[submodule ".vim/bundle/jscomplete-vim.git"]
+	path = .vim/bundle/jscomplete-vim.git
+	url = git://github.com/teramako/jscomplete-vim.git
+  ignore = untracked
